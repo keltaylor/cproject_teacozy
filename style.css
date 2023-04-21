@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    min-height: 69px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: 0.9;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    right: 10px;
+    padding: 0px 15px;
+}
+
+li a {
+    color: seashell;
+}
+
+.mission {
+    top: 70px;
+    height: 700px;
+    max-width: 1200px;
+    position: relative;
+    margin: 0px auto;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1gzk8oa*_ga*MjMzOTQ1MTg1NC4xNjc0Mzc0MTg2*_ga_3LRZM6TM9L*MTY3NDk4NDE3MS4yNS4xLjE2NzQ5ODk1OTkuMjQuMC4w);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission div {
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    margin: 80px auto;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.container h2, .container h4 {
+    padding: 10px;
+}
+  
+.tea-box {
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+  
+.tea {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+.tea-img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .tea h4 {
+    margin-top: 10px;
+  }
+
+.location {
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*9ms8pv*_ga*MjMzOTQ1MTg1NC4xNjc0Mzc0MTg2*_ga_3LRZM6TM9L*MTY3NDk4NDE3MS4yNS4xLjE2NzQ5ODk1OTkuMjQuMC4w);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.location h2 {
+    margin-bottom: 15px;
+}
+
+.location-container {
+    display: inline-flex;
+}
+
+.location-panel {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: auto 20px;
+    line-height: 70px;
+}
+
+.contact-us {
+    height: 200px;
+    line-height: 50px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
